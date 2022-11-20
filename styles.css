@@ -158,3 +158,11 @@ body {
 .normalText {
     text-decoration-line: none;
 }
+
+@media screen and (max-width: 500px) {
+    #list {
+        width: 100%;
+        left: 0%;
+        right: 0%;
+    }
+}
